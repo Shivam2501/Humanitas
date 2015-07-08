@@ -49,9 +49,9 @@ html, body {
 
 #main {
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(../img/ngo.jpg);
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(../img/ngo1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -59,15 +59,15 @@ html, body {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ),url(../img/map.jpg);
+    ),url(../img/map1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #main2 {
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(../img/what.jpg);
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),url(../img/ngo2.png);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -75,7 +75,7 @@ html, body {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ),url(../img/contact.jpg);
+    ),url(../img/ngo7.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -91,7 +91,7 @@ html, body {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ),url(../img/get.jpg);
+    ),url(../img/ngo6.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
