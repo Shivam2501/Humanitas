@@ -48,12 +48,7 @@ html, body {
 }
 
 #main {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),url(../img/ngo1.jpg);
-      background-size: 100% 100%;
-    background-repeat: no-repeat;
+  
 }
 #main1 {
     background-image: linear-gradient(
@@ -244,6 +239,13 @@ html, body {
     font-size: 80px;
     color: #2291b5;
 }
+@media (max-width: 468px) {
+ .header h2{
+    font-size: 50px;
+    color: #2291b5;
+}
+
+  }
 .header h5{
     font-size: 30px;
 }
@@ -362,3 +364,28 @@ hr.small {
     color: #fff;
     text-decoration: none;
 }
+
+#main span {
+   position: absolute; 
+   bottom: 0;
+   right: 40%;
+   margin-bottom: 4px;
+   color: #2291b5;
+   text-align: center;
+}
+
+@media (max-width: 468px) {
+ #main span {
+   position: absolute; 
+   bottom: 0;
+   right: 30%;
+   margin-bottom: 4px;
+   color: #2291b5;
+   text-align: center;
+}
+
+  }
+  .foot{
+    color: #2291b5;
+  }
+  

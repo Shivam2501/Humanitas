@@ -37,6 +37,7 @@
             <meta name="msapplication-TileColor" content="#ffffff">
             <meta name="msapplication-TileImage" content="favicons.ico/ms-icon-144x144.png">
             <meta name="theme-color" content="#ffffff">
+            <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
             <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -49,7 +50,14 @@
 </script>
 	</head>
 	<body>
-        
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>      
 <div class="wrapper">
     <div class="box">
         <div class="row">
@@ -95,6 +103,13 @@
 
                             
                 </ul>
+                <ul class="list-inline wrap"> 
+                           
+
+                            <li class="foot">  <div class="fb-like" data-href="https://www.facebook.com/humanitasbyeducationforeducation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div> </li> 
+
+                            
+                </ul>
             </div>
             <!-- /sidebar -->
           
@@ -108,20 +123,32 @@
                             <h2>Humanitas</h2>
                             <h5>BY EDUCATION | FOR EDUCATION</h5>
                         </div>
-                        
+                             
                     </div><!-- /col-9 -->
-                
+                  
+                    <span>Copyright &copy; Humanitas 2015</span>
+                  
             </div>
-            <!-- /main -->
+            
         </div>
     </div>
 </div>
+
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
         <script type="text/javascript">
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();  
+            $(function() {
+    var images = ['ngo1.jpg','ngo3.jpg','ngo4.jpg','ngo5.jpg','ngo6.jpg','ngo7.jpg','london.jpg'];
+    $lol=images[Math.floor(Math.random() * images.length)];
+    $('#main').fadeIn(1000);
+    $('#main').css({'background': 'linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/' + $lol + ')'});
+    $('#main').css({'background-size': '100% 100%'});
+    $('#main').css({'background-repeat': 'no-repeat'});
+    
+   });
         });
         </script>
 	</body>

@@ -1,0 +1,35 @@
+Page: http://humanitas-london.com/
+<title>Humanitas</title>
+<meta name="description" content="Humanitas is a charity foundation, which is based in the UK that wants to educate children of all ages in emerging nations.">
+
+====================================================================================================================
+Page: http://humanitas-london.com/about.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://humanitas-london.com/contact.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://humanitas-london.com/donate.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://humanitas-london.com/get.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://humanitas-london.com/index.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://humanitas-london.com/what.html
+<title>Humanitas</title>
+<meta name="description" content="">
+
+====================================================================================================================
