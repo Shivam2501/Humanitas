@@ -20,6 +20,7 @@
           <link href='http://fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css' />
           <link href="css/styles.css" rel="stylesheet">
 
+    
           <link rel="apple-touch-icon" sizes="57x57" href="favicons.ico/apple-icon-57x57.png">
             <link rel="apple-touch-icon" sizes="60x60" href="favicons.ico/apple-icon-60x60.png">
             <link rel="apple-touch-icon" sizes="72x72" href="favicons.ico/apple-icon-72x72.png">
@@ -47,8 +48,9 @@
   ga('send', 'pageview');
 
 </script>
-  </head>
-	<body>
+  </head>	
+  <body>
+
 <div class="wrapper">
     <div class="box">
         <div class="row">
@@ -60,8 +62,8 @@
                 <li class="text-center">
                      <img class="img-circle0" src="img/logo1.jpg"></img>
                        <h2 class="brand-heading  text-center" >Humanitas</h2>
-                        <h3 class="brand-heading1  text-center" >BY EDUCATION | FOR EDUCATION</h3> 
-                        <hr class="small">                 
+                        <h3 class="brand-heading1  text-center" >BY EDUCATION | FOR EDUCATION</h3>  
+                        <hr class="small">                
                 </li>
                 <br />
                 <li>
@@ -76,11 +78,11 @@
                 <li>
                     <a href="get.html"><i class="fa fa-smile-o icon"></i>Get Involoved</a>
                 </li>
-                <li  class="active">
-                    <a href="donate.html"><i class="fa fa-paper-plane icon2"></i>Donate</a>
-                </li>
                 <li>
-                    <a href="contact.html"><i class="fa  fa-edit icon"></i>Contact Us</a>
+                    <a href="donate.html"><i class="fa fa-paper-plane icon"></i>Donate</a>
+                </li>
+                <li class="active">
+                    <a href="contact.html"><i class="fa  fa-edit icon2"></i>Contact Us</a>
                 </li>
                 <br />
                 
@@ -99,34 +101,54 @@
             <!-- /sidebar -->
           
             <!-- main -->
-            <div class="column col-sm-9" id="main4">
-              
-                     <div class='col-sm-12 team text-center'>
-                        
+            <div class="column col-sm-9" id="main3">
+               <div class='heading1'>
+                      CONTACT US
+                </div>
 
-                         <div class='heading1'>
-                              DONATE
-                            </div>
-                             <hr class="small">  
-                             <p class="lead">Humanitas is a non-profit organization whose purpose is to fundraise in order to bring education into an underdeveloped country.
-                              <br />
-                              We, the founders, belief that sometimes we should share our wealth without expecting something from people who need that need and do not have the opportunity get developped. 
-                              <br /><br />
-                              <b>Our promise, all donations will go to hundred per cent to our cooperated schools.</b>
-                              <blockquote><p class="donate">He, who opens a school door, uses the most powerful weapon to change the world!</p></blockquote>
-                              </p>
-                              <p class="lead">Start donating today and create a difference in world!</p>
-                              <br />
-                              <a href="http://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MR8F5CFQCURMY" class="btn btn-4 btn-4c icon-arrow-right">DONATE NOW</a>
-                     </div>
-                     
-                      
-                 
+                <br />
+                <div class="col-sm-4 text-center">
+                  <i class="fa fa-map-marker fa-2x"></i><p class="lead">5 Moorlane <br />EC2Y 9AP London, UK</p>
+                  <br />
+                  <iframe width="300" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=5%20Moorlane%20%20EC2Y%209AP%20London%2C%20UK&key=AIzaSyCktlMgW-Es74osvAx5sC9wCEXuNtfIPUM"></iframe>
+                </div>
+                    
+                 <div class="col-sm-8 contact">
+                 <form name="contactform" method="post"  action="mailer.php" class="form-horizontal" role="form">
+
+              <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+                <div class="col-lg-10">
+                  <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                  <button type="submit" class="btn btn-default">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+                 </div>
             </div>
             
         </div>
     </div>
 </div>
+
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -137,7 +159,6 @@
                   $("div.fadeinleft").animate({left:20, opacity:"show"}, 1500);
 
                   $("div.fadeinright").animate({right:20, opacity:"show"}, 1500);
-                  $("div.fadeintop").animate({top:20, opacity:"show"}, 1500);
               });
         });
         </script>

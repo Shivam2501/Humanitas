@@ -353,18 +353,108 @@ hr.small {
   /*border-color: #f05f40;*/
 }
 #projectweb{
-  text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    background: #2291b5;
-    color: #fff;
-    font-size: 20px;
+  border-radius: 30px;
+  padding: 5px 16px;
+  background: transparent;
+  color: #DB4344;
+  border: 1px solid #DB4344;
+  font-size: 20px;
 }
 #projectweb:hover,#projectweb:active {
-    color: #fff;
-    text-decoration: none;
+    background: #DB4344;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+   font-weight:500;
+   font-size: 16px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: inline-block;
+/*  margin: 15px 30px;*/
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before{
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-4 {
+border-radius: 50px;
+border: 2px solid #DB4344;
+background: #DB4344;
+color: #FFFFFF;
+overflow: hidden;
+}
+
+.icon-arrow-right:before {
+  content: "\f138";
+  font-family: FontAwesome;
+}
+
+.btn-4:hover {
+    background: transparent;
+  color: #DB4344;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-left:20px;
+}
+
+
+.btn-4:before {
+  position: absolute;
+  height: 100%;
+  font-size: 125%;
+  line-height: 3.5;
+  color: #DB4344;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-4:active:before {
+  color: #DB4344;
+}
+
+.btn-4c:before {
+  left: 70%;
+  opacity: 0;
+  top: -33%;
+}
+
+.btn-4c:hover:before {
+  left: 86%;
+  opacity: 1;
+}
 #main span {
    position: absolute; 
    bottom: 0;
